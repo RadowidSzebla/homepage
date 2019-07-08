@@ -1,5 +1,5 @@
 body {
-    background: salmon;
+    background: #fefefe;
 }
 
 h1 {
@@ -12,4 +12,15 @@ h2 {
 
 p {
     color: darkblue;
+}
+
+.thirdHeader {color: #4bb3fd}
+
+.main
+{
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 50px;
+    
 }
