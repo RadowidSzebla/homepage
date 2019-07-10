@@ -1,29 +1,9 @@
-html {
-    box-sizing: border-box;
-}
-
-*, *after, *:before {
-    box-sizing: inherit;
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(90deg, #8EC5FC 42%, #575af5 100%);
 }
 
 .main
 {
     padding: 0 0 0 50px;    
-}
-
-.navigation {
-
-}
-
-.navigation__list {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-
-}
-
-.navigation__item {
-    display: inline;
-    padding-right: 10px;
 }

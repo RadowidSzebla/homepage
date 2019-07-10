@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *after, *:before {
+    box-sizing: inherit;
+}
+
+.navigation {
+
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation__item {
+    display: block;
+    margin: 0 8px;
+}
+
+.footer{
+    background-color: rgba(170, 144, 144, 0.521);
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    align-content: flex-end;
+}
