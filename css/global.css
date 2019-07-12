@@ -6,6 +6,15 @@ html {
     box-sizing: inherit;
 }
 
+.main
+{
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-row-gap: 10px; 
+    min-height: 100vh;
+    padding: 0 0 0 50px;
+}
+
 .navigation {
 
 }
@@ -28,5 +37,6 @@ html {
     display: flex;
     padding: 20px;
     flex-direction: row;
-    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
 }

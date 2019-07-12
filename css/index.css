@@ -1,6 +1,5 @@
 .body {
-    min-height: 100vh;
-    padding: 0 0 0 50px;
+    
     background-image: url('../img/20170322_083014.jpg');
     background-position: top left;
     background-repeat: repeat;
@@ -19,13 +18,7 @@ h2 {
     color: darkblue;
 }
 
-.main
-{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 
 .link{
     color:darkblue;
